@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SpotifyStats</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="main.js"></script>
+    <script src="premiumcheck.js"></script>
+    <script src="topSongs.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <nav>
+        <button><a href="topSongs.html">Top Songs</a></button>
+        <button onclick="history()"><a href="./">History</a></button>
+        <button><a href="topArtists.html">Top Artists</a></button>
+        <button id="login" onclick="login()"><a href="">Login</a></button>
+    </nav>
+    <dialog id="dialog">
+      <div>
+        <h3 id="artistName"></h3>
+        <h1 id="songName"></h1>
+        <h4>Popularity (1-100)</h4>
+        <h3 id="streams"></h3>
+        <button id="playButton">Play on YouTube Music</button>
+      </div>
+    </dialog>
+    <div class="container">
+        <h1>Top Songs</h1>
+        <select onchange="setDuration()" id="dropdown">
+          <option>1 Month</option>
+          <option>6 Months</option>
+          <option>All Time</option>
+        </select>
+        <div class="artistGrid"  id="artistParent">
+            <div id="original">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

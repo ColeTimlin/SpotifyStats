@@ -1,0 +1,109 @@
+body {
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+button {
+    width: 24.81%;
+    height: 4em;
+    background-color: #282828;
+    color:#f1f1f1;
+    text-decoration: none;
+    border:0px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3e3e3e;
+    text-decoration: none;
+}
+
+a:link
+{
+   color: #f1f1f1;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #f1f1f1;
+   text-decoration: none;
+}
+a:hover
+{
+   color: #f1f1f1;
+   text-decoration: none;
+}
+a:active
+{
+   color: #f1f1f1;
+   text-decoration: none;
+}
+
+nav {
+    background-color: #282828;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    margin:auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+h3 {
+    font-family: Arial;
+}
+
+h4 {
+    font-family: Arial;
+}
+
+table img {
+    height: 30px;
+    width: 30px;
+}
+
+table {
+    margin:auto;
+    width: 75%;
+}
+
+td {
+    width: 24.81%;
+    height: 40px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.artistGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+dialog {
+    width: 500px;
+    justify-content: center;
+}
+
+#playButton {
+    width: 165px;
+    margin: auto;
+}
+
+select {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(59, 59, 59);
+    border: thin solid #fff;
+    border-radius: 0 100px 100px 0;
+    display: inline-block;
+    color:#fff;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    margin: 0;
+}
