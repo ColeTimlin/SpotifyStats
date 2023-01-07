@@ -1,0 +1,119 @@
+.record {
+    position: relative;
+    z-index: -1;
+}
+
+.record img {
+    width: 500px;
+    height: 332px;
+}
+
+.albumImage {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    
+}
+
+.albumImage img {
+    width: 245px;
+    height: 245px;
+}
+
+#mask1 {  
+    width: 123.75px;
+    height: 123.75px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(25, 212, 81);
+  }
+
+#mask2 {  
+    width: 123.75px;
+    height: 123.75px;
+    position: absolute;
+    top: 40px;
+    left: 193.75px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(140, 97, 240);
+  }
+
+#mask3 {  
+    width: 123.75px;
+    height: 123.75px;
+    position: absolute;
+    top: 163.75px;
+    left: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+  }
+
+#mask4 {  
+    width: 123.75px;
+    height: 123.75px;
+    position: absolute;
+    top: 163.75px;
+    left: 193.75px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+  }
+
+#text1 {  
+  width: 146.5px;
+  height: 30.5px;
+  position: absolute;
+  top: 149.75px;
+  left: 72.75px;
+  color: white;
+  font-weight: bold;
+  font-family: Garamond, serif;
+  font-size: 10px;
+}
+
+#text2 {  
+  width: 146.5px;
+  height: 30.5px;
+  position: absolute;
+  top: 149.75px;
+  left: 195.75px;
+  color: white;
+  font-weight: bold;
+  font-family: Garamond, serif;
+  font-size: 10px;
+}
+
+#text3 {  
+  width: 146.5px;
+  height: 30.5px;
+  position: absolute;
+  top: 275.75px;
+  left: 72.75px;
+  color: white;
+  font-weight: bold;
+  font-family: Garamond, serif;
+  font-size: 10px;
+}
+
+#text4 {  
+  width: 146.5px;
+  height: 30.5px;
+  position: absolute;
+  top: 275.75px;
+  left: 195.75px;
+  color: white;
+  font-weight: bold;
+  font-family: Garamond, serif;
+  font-size: 10px;
+}
+
+  

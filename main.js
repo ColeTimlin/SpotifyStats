@@ -30,6 +30,22 @@ window.onload = () => {
       }
       if(window.location.pathname == "/topSongs.html"){
         topSongs()
+
+        window.onSpotifyWebPlaybackSDKReady = () => {
+          const token = _token;
+          const player = new Spotify.Player({
+            name: 'SpotifyStats Web Player',
+            getOAuthToken: cb => { cb(token); },
+            volume: 0.5
+          });
+
+          player.addListener('ready', ({ device_id }) => {
+            console.log('Ready with Device ID', device_id);
+          });
+      }
+    }
+      if(window.location.pathname == "/record/index.html"){
+        record()
       }
       document.getElementById("login").onclick = signOut
       document.getElementById("login").innerText = "Sign Out"

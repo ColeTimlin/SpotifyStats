@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SpotifyStats</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="./record.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+    <script src="../main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <nav>
+      <button><a href="/record/index.html">Artist Record</a></button>
+      <button><a href="/topSongs.html">Top Songs</a></button>
+      <button onclick="history()"><a href="./">History</a></button>
+      <button><a href="/topArtists.html">Top Artists</a></button>
+      <button id="login" onclick="login()"><a href="">Login</a></button>
+  </nav>
+    <div class="record">
+        <img src="../resources/blankRecord.png">
+        <div class="albumImage">
+            <img src="../resources/kanye.jpg">
+        </div>
+        <div class="masks">
+          <div id="mask1"></div>
+          <div id="mask2"></div>
+          <div id="mask3"></div>
+          <div id="mask4"></div>
+          <div id="text1">test</div>
+          <div id="text2">test</div>
+          <div id="text3">test</div>
+          <div id="text4">test</div>
+        </div>
+    </div>
+    <button onclick="download()">Download Image</button>
+  </body>
+</html>
